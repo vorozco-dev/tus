@@ -16,7 +16,7 @@ export default function NetworkMapPage() {
         <div className="flex items-center gap-3">
           <Badge variant="outline" className="bg-panelSoft border-border text-textSecondary">
             <MapPin className="w-3 h-3 mr-1" />
-            Bogotá Region
+            CDMX Region
           </Badge>
           <Badge variant="outline" className="bg-panelSoft border-border text-textSecondary">
             <Activity className="w-3 h-3 mr-1" />

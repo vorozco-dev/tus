@@ -15,12 +15,12 @@ const endpoints = [
     path: "/api/v1/topology",
     description: "Retrieve the full network topology including nodes and links.",
     params: [
-      { name: "region", type: "string", required: false, desc: "Filter by region (e.g., 'Bogotá')" },
+      { name: "region", type: "string", required: false, desc: "Filter by region (e.g., 'CDMX')" },
       { name: "layer", type: "string", required: false, desc: "Filter by layer ('physical', 'transport', 'logical')" },
     ],
     response: `{
   "nodes": [
-    { "id": "CORE-01", "type": "core", "region": "Bogotá" },
+    { "id": "CORE-01", "type": "core", "region": "CDMX" },
     ...
   ],
   "links": [

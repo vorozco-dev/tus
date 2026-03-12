@@ -23,15 +23,15 @@ const nodeTypes = {
 };
 
 const initialNodes = [
-  { id: "core-1", type: "custom", position: { x: 400, y: 50 }, data: { label: "CORE-01", sublabel: "Bogotá", type: "core", status: "normal" } },
-  { id: "core-2", type: "custom", position: { x: 800, y: 50 }, data: { label: "CORE-02", sublabel: "Medellín", type: "core", status: "normal" } },
+  { id: "core-1", type: "custom", position: { x: 400, y: 50 }, data: { label: "CORE-01", sublabel: "CDMX", type: "core", status: "normal" } },
+  { id: "core-2", type: "custom", position: { x: 800, y: 50 }, data: { label: "CORE-02", sublabel: "Monterrey", type: "core", status: "normal" } },
   { id: "agg-1", type: "custom", position: { x: 200, y: 200 }, data: { label: "AGG-N1", sublabel: "Norte", type: "aggregation", status: "normal" } },
   { id: "agg-2", type: "custom", position: { x: 600, y: 200 }, data: { label: "AGG-C1", sublabel: "Centro", type: "aggregation", status: "normal" } },
   { id: "agg-3", type: "custom", position: { x: 1000, y: 200 }, data: { label: "AGG-S1", sublabel: "Sur", type: "aggregation", status: "normal" } },
-  { id: "dist-1", type: "custom", position: { x: 100, y: 350 }, data: { label: "DIST-W1", sublabel: "Suba", type: "access", status: "normal" } },
-  { id: "dist-2", type: "custom", position: { x: 300, y: 350 }, data: { label: "DIST-E1", sublabel: "Usaquén", type: "access", status: "normal" } },
-  { id: "dist-3", type: "custom", position: { x: 500, y: 350 }, data: { label: "DIST-C1", sublabel: "Chapinero", type: "access", status: "normal" } },
-  { id: "dist-4", type: "custom", position: { x: 700, y: 350 }, data: { label: "DIST-S1", sublabel: "Kennedy", type: "access", status: "normal" } },
+  { id: "dist-1", type: "custom", position: { x: 100, y: 350 }, data: { label: "DIST-W1", sublabel: "Polanco", type: "access", status: "normal" } },
+  { id: "dist-2", type: "custom", position: { x: 300, y: 350 }, data: { label: "DIST-E1", sublabel: "Santa Fe", type: "access", status: "normal" } },
+  { id: "dist-3", type: "custom", position: { x: 500, y: 350 }, data: { label: "DIST-C1", sublabel: "Condesa", type: "access", status: "normal" } },
+  { id: "dist-4", type: "custom", position: { x: 700, y: 350 }, data: { label: "DIST-S1", sublabel: "Coyoacán", type: "access", status: "normal" } },
 ];
 
 const initialEdges = [

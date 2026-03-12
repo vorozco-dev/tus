@@ -29,7 +29,7 @@ export default function RANCorrelationPage() {
             <div className="flex items-center justify-between">
               <CardTitle className="text-lg font-bold text-textPrimary flex items-center gap-2">
                 <RadioTower className="w-5 h-5 text-accentBlue" />
-                Site: SUBA-01 (5G NR)
+                Site: POL-01 (5G NR)
               </CardTitle>
               <StatusBadge status="critical" />
             </div>
@@ -45,7 +45,7 @@ export default function RANCorrelationPage() {
                   <RadioTower className="w-8 h-8 text-danger" />
                 </div>
                 <div className="text-center">
-                  <p className="font-bold text-textPrimary">SUBA-01</p>
+                  <p className="font-bold text-textPrimary">POL-01</p>
                   <p className="text-xs text-textSecondary">RAN Site</p>
                   <Badge variant="outline" className="mt-2 border-danger text-danger bg-danger/10 text-[10px]">Isolated</Badge>
                 </div>
@@ -99,7 +99,7 @@ export default function RANCorrelationPage() {
                 <AlertTriangle className="w-4 h-4" /> Correlation Insight
               </h4>
               <p className="text-sm text-textSecondary">
-                The isolation of RAN site <span className="font-bold text-textPrimary">SUBA-01</span> is directly correlated to the Loss of Signal (LOS) alarm on the transport access node <span className="font-bold text-textPrimary">DIST-W1</span>. The issue is in the transport domain, not the radio equipment.
+                The isolation of RAN site <span className="font-bold text-textPrimary">POL-01</span> is directly correlated to the Loss of Signal (LOS) alarm on the transport access node <span className="font-bold text-textPrimary">DIST-W1</span>. The issue is in the transport domain, not the radio equipment.
               </p>
             </div>
           </CardContent>
@@ -111,7 +111,7 @@ export default function RANCorrelationPage() {
             <div className="flex items-center justify-between">
               <CardTitle className="text-lg font-bold text-textPrimary flex items-center gap-2">
                 <RadioTower className="w-5 h-5 text-accentBlue" />
-                Site: CHAP-05 (LTE)
+                Site: COND-05 (LTE)
               </CardTitle>
               <StatusBadge status="warning" />
             </div>
@@ -127,7 +127,7 @@ export default function RANCorrelationPage() {
                   <RadioTower className="w-8 h-8 text-warning" />
                 </div>
                 <div className="text-center">
-                  <p className="font-bold text-textPrimary">CHAP-05</p>
+                  <p className="font-bold text-textPrimary">COND-05</p>
                   <p className="text-xs text-textSecondary">RAN Site</p>
                   <Badge variant="outline" className="mt-2 border-warning text-warning bg-warning/10 text-[10px]">High Latency</Badge>
                 </div>
@@ -181,7 +181,7 @@ export default function RANCorrelationPage() {
                 <Activity className="w-4 h-4" /> Correlation Insight
               </h4>
               <p className="text-sm text-textSecondary">
-                High latency reported at RAN site <span className="font-bold text-textPrimary">CHAP-05</span> correlates with link congestion (92% utilization) at the aggregation node <span className="font-bold text-textPrimary">AGG-C1</span>. Recommend traffic engineering or capacity upgrade on the AGG-C1 uplink.
+                High latency reported at RAN site <span className="font-bold text-textPrimary">COND-05</span> correlates with link congestion (92% utilization) at the aggregation node <span className="font-bold text-textPrimary">AGG-C1</span>. Recommend traffic engineering or capacity upgrade on the AGG-C1 uplink.
               </p>
             </div>
           </CardContent>

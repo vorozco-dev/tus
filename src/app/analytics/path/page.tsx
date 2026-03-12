@@ -45,9 +45,9 @@ export default function PathOptimizationPage() {
                     <SelectValue placeholder="Select source" />
                   </SelectTrigger>
                   <SelectContent className="bg-panel border-border text-textPrimary">
-                    <SelectItem value="dist-w1">DIST-W1 (Suba)</SelectItem>
-                    <SelectItem value="dist-e1">DIST-E1 (Usaquén)</SelectItem>
-                    <SelectItem value="core-1">CORE-01 (Bogotá)</SelectItem>
+                    <SelectItem value="dist-w1">DIST-W1 (Polanco)</SelectItem>
+                    <SelectItem value="dist-e1">DIST-E1 (Santa Fe)</SelectItem>
+                    <SelectItem value="core-1">CORE-01 (CDMX)</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -63,7 +63,7 @@ export default function PathOptimizationPage() {
                     <SelectValue placeholder="Select destination" />
                   </SelectTrigger>
                   <SelectContent className="bg-panel border-border text-textPrimary">
-                    <SelectItem value="core-2">CORE-02 (Medellín)</SelectItem>
+                    <SelectItem value="core-2">CORE-02 (Monterrey)</SelectItem>
                     <SelectItem value="agg-s1">AGG-S1 (Sur)</SelectItem>
                   </SelectContent>
                 </Select>
@@ -172,7 +172,7 @@ export default function PathOptimizationPage() {
                         </div>
                         <div className="flex-1 pt-2">
                           <h4 className="text-base font-bold text-textPrimary">DIST-W1 (Source)</h4>
-                          <p className="text-sm text-textSecondary">Access Node • Suba</p>
+                          <p className="text-sm text-textSecondary">Access Node • Polanco</p>
                         </div>
                       </div>
 
@@ -222,7 +222,7 @@ export default function PathOptimizationPage() {
                         </div>
                         <div className="flex-1 pt-2">
                           <h4 className="text-base font-bold text-textPrimary">CORE-01</h4>
-                          <p className="text-sm text-textSecondary">Core Router • Bogotá</p>
+                          <p className="text-sm text-textSecondary">Core Router • CDMX</p>
                         </div>
                       </div>
 
@@ -247,7 +247,7 @@ export default function PathOptimizationPage() {
                         </div>
                         <div className="flex-1 pt-2">
                           <h4 className="text-base font-bold text-textPrimary">CORE-02 (Destination)</h4>
-                          <p className="text-sm text-textSecondary">Core Router • Medellín</p>
+                          <p className="text-sm text-textSecondary">Core Router • Monterrey</p>
                         </div>
                       </div>
 

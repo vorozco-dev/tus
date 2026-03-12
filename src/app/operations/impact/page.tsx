@@ -136,7 +136,7 @@ export default function ServiceImpactPage() {
                         <div className="flex items-center gap-3">
                           <StatusBadge status="critical" showLabel={false} />
                           <div>
-                            <p className="text-sm font-bold text-textPrimary">Hospital Central - Main Link</p>
+                            <p className="text-sm font-bold text-textPrimary">Hospital General - Main Link</p>
                             <p className="text-xs text-textSecondary">L2VPN • 1G • SLA: 99.99%</p>
                           </div>
                         </div>
@@ -162,7 +162,7 @@ export default function ServiceImpactPage() {
                         <div className="flex items-center gap-3">
                           <StatusBadge status="warning" showLabel={false} />
                           <div>
-                            <p className="text-sm font-bold text-textPrimary">5G NR - Suba Sector</p>
+                            <p className="text-sm font-bold text-textPrimary">5G NR - Polanco Sector</p>
                             <p className="text-xs text-textSecondary">32 Cells Affected • Rerouted via MW</p>
                           </div>
                         </div>
@@ -172,7 +172,7 @@ export default function ServiceImpactPage() {
                         <div className="flex items-center gap-3">
                           <StatusBadge status="warning" showLabel={false} />
                           <div>
-                            <p className="text-sm font-bold text-textPrimary">LTE - Usaquén Sector</p>
+                            <p className="text-sm font-bold text-textPrimary">LTE - Santa Fe Sector</p>
                             <p className="text-xs text-textSecondary">16 Cells Affected • High Latency</p>
                           </div>
                         </div>

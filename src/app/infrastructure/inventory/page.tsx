@@ -11,15 +11,15 @@ import { StatusBadge } from "@/components/ui/StatusBadge";
 import { Badge } from "@/components/ui/badge";
 
 const inventoryData = [
-  { id: "CORE-01", type: "Core Router", vendor: "Cisco", model: "NCS 5500", region: "Bogotá", status: "normal", ip: "10.24.1.55" },
-  { id: "CORE-02", type: "Core Router", vendor: "Cisco", model: "NCS 5500", region: "Medellín", status: "normal", ip: "10.24.1.56" },
+  { id: "CORE-01", type: "Core Router", vendor: "Cisco", model: "NCS 5500", region: "CDMX", status: "normal", ip: "10.24.1.55" },
+  { id: "CORE-02", type: "Core Router", vendor: "Cisco", model: "NCS 5500", region: "Monterrey", status: "normal", ip: "10.24.1.56" },
   { id: "AGG-N1", type: "Aggregation", vendor: "Nokia", model: "7750 SR", region: "Norte", status: "warning", ip: "10.24.2.10" },
   { id: "AGG-C1", type: "Aggregation", vendor: "Nokia", model: "7750 SR", region: "Centro", status: "normal", ip: "10.24.2.11" },
   { id: "AGG-S1", type: "Aggregation", vendor: "Nokia", model: "7750 SR", region: "Sur", status: "normal", ip: "10.24.2.12" },
-  { id: "DIST-W1", type: "Access", vendor: "Huawei", model: "ATN 910", region: "Suba", status: "critical", ip: "10.24.3.100" },
-  { id: "DIST-E1", type: "Access", vendor: "Huawei", model: "ATN 910", region: "Usaquén", status: "normal", ip: "10.24.3.101" },
-  { id: "DIST-C1", type: "Access", vendor: "Huawei", model: "ATN 910", region: "Chapinero", status: "normal", ip: "10.24.3.102" },
-  { id: "DIST-S1", type: "Access", vendor: "Huawei", model: "ATN 910", region: "Kennedy", status: "normal", ip: "10.24.3.103" },
+  { id: "DIST-W1", type: "Access", vendor: "Huawei", model: "ATN 910", region: "Polanco", status: "critical", ip: "10.24.3.100" },
+  { id: "DIST-E1", type: "Access", vendor: "Huawei", model: "ATN 910", region: "Santa Fe", status: "normal", ip: "10.24.3.101" },
+  { id: "DIST-C1", type: "Access", vendor: "Huawei", model: "ATN 910", region: "Condesa", status: "normal", ip: "10.24.3.102" },
+  { id: "DIST-S1", type: "Access", vendor: "Huawei", model: "ATN 910", region: "Coyoacán", status: "normal", ip: "10.24.3.103" },
   { id: "MW-N1", type: "Microwave", vendor: "Ericsson", model: "MINI-LINK", region: "Norte", status: "normal", ip: "10.24.4.50" },
   { id: "MW-S1", type: "Microwave", vendor: "Ericsson", model: "MINI-LINK", region: "Sur", status: "warning", ip: "10.24.4.51" },
 ];
